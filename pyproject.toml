@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iot-home-energy-monitor"
+version = "1.0.0"
+description = "Simulator beban listrik rumah tangga, tarif PLN bertingkat per golongan, analisis konsumsi, dan dashboard web statis"
+authors = [{name = "LlvallVeiz"}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[project.scripts]
+iot-energy = "iot_home_energy_monitor.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
