@@ -1,0 +1,121 @@
+{
+  "generated_on": "2026-11-10",
+  "profile": "small_household",
+  "tariff_period": "Triwulan IV 2026 (1 Oktober–31 Desember 2026)",
+  "summary": {
+    "n_days": 7,
+    "n_minutes": 10080,
+    "total_kwh": 24.7309,
+    "avg_daily_kwh": 3.533,
+    "energy_by_appliance_kwh": {
+      "kulkas": 7.96,
+      "rice_cooker_masak": 4.9,
+      "kipas_angin": 3.3892,
+      "tv": 2.0147,
+      "dispenser": 1.6917,
+      "rice_cooker_hangat": 1.6421,
+      "lampu": 1.26,
+      "pompa_air": 1.0333,
+      "__base_load__": 0.84
+    },
+    "share_by_appliance_pct": {
+      "kulkas": 32.19,
+      "rice_cooker_masak": 19.81,
+      "kipas_angin": 13.7,
+      "tv": 8.15,
+      "dispenser": 6.84,
+      "rice_cooker_hangat": 6.64,
+      "lampu": 5.09,
+      "pompa_air": 4.18,
+      "__base_load__": 3.4
+    },
+    "daily_kwh": [
+      {
+        "date": "2026-11-10",
+        "kwh": 3.5926
+      },
+      {
+        "date": "2026-11-11",
+        "kwh": 3.5072
+      },
+      {
+        "date": "2026-11-12",
+        "kwh": 3.5186
+      },
+      {
+        "date": "2026-11-13",
+        "kwh": 3.5049
+      },
+      {
+        "date": "2026-11-14",
+        "kwh": 3.5663
+      },
+      {
+        "date": "2026-11-15",
+        "kwh": 3.4961
+      },
+      {
+        "date": "2026-11-16",
+        "kwh": 3.5453
+      }
+    ],
+    "peak": {
+      "peak_w": 961.0,
+      "at": "2026-11-10T06:05:00"
+    },
+    "peak_hour": {
+      "start": "2026-11-13T05:30:00",
+      "kwh": 0.5405
+    },
+    "load_factor": 0.1532,
+    "spike_threshold_w": 720.0,
+    "n_spikes": 0,
+    "spikes": [],
+    "anomalies": [],
+    "base_load_kwh": 0.84
+  },
+  "bill_monthly_estimate": {
+    "kwh": 105.99,
+    "golongan": "R-1/TR 900 VA RTM",
+    "rate_per_kwh": 1352.0,
+    "energy_cost": 143298.48,
+    "ppj_pct": 3.0,
+    "ppj": 4298.95,
+    "admin_fee": 0.0,
+    "total": 147597.43
+  },
+  "recommendations": {
+    "items": [
+      {
+        "id": "rice_cooker_warm",
+        "title": "Cabut rice cooker setelah nasi matang — mode hangat boros diam-diam",
+        "detail": "Mode hangat memakai 0.23 kWh/hari (6.6% total) hanya untuk menjaga nasi tetap hangat. Mematikan/mencabut setelah masak dan menghangatkan ulang saat perlu menghemat ~80% dari angka ini.",
+        "estimated_saving": {
+          "kwh_per_month": 5.63,
+          "rp_per_month": 7840.0
+        }
+      },
+      {
+        "id": "standby",
+        "title": "Kurangi beban siaga (standby) — matikan dari stopkontak",
+        "detail": "Beban siaga 0.12 kWh/hari (3.4% total) mengalir 24 jam dari charger, TV standby, dan router. Memakai stopkontak bersaklar untuk perangkat yang tidak perlu menyala terus memangkas sekitar setengahnya.",
+        "estimated_saving": {
+          "kwh_per_month": 1.8,
+          "rp_per_month": 2507.0
+        }
+      },
+      {
+        "id": "fridge",
+        "title": "Jaga kulkas tetap efisien — suhu 3–4°C dan karet pintu rapat",
+        "detail": "Kulkas memakai 32.2% total energi (1.14 kWh/hari) dan menyala 24 jam. Karet pintu yang longgar atau suhu terlalu dingin menaikkan duty cycle kompresor; perbaikan kecil diperkirakan menghemat ~5% konsumsi kulkas.",
+        "estimated_saving": {
+          "kwh_per_month": 1.71,
+          "rp_per_month": 2375.0
+        }
+      }
+    ],
+    "total_estimated_saving_kwh_per_month": 9.14,
+    "total_estimated_saving_rp_per_month": 12722.0,
+    "monthly_kwh_estimate": 105.99
+  }
+}

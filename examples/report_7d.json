@@ -1,0 +1,210 @@
+{
+  "generated_on": "2026-11-10",
+  "profile": "default_household",
+  "tariff_period": "Triwulan IV 2026 (1 Oktober–31 Desember 2026)",
+  "summary": {
+    "n_days": 7,
+    "n_minutes": 10080,
+    "total_kwh": 65.6888,
+    "avg_daily_kwh": 9.3841,
+    "energy_by_appliance_kwh": {
+      "ac_1pk": 31.7067,
+      "kulkas": 10.0825,
+      "kipas_angin": 6.7383,
+      "rice_cooker_masak": 5.6,
+      "tv": 2.5417,
+      "lampu": 2.1,
+      "rice_cooker_hangat": 1.9413,
+      "dispenser": 1.72,
+      "mesin_cuci": 1.2267,
+      "pompa_air": 1.1917,
+      "__base_load__": 0.84
+    },
+    "share_by_appliance_pct": {
+      "ac_1pk": 48.27,
+      "kulkas": 15.35,
+      "kipas_angin": 10.26,
+      "rice_cooker_masak": 8.53,
+      "tv": 3.87,
+      "lampu": 3.2,
+      "rice_cooker_hangat": 2.96,
+      "dispenser": 2.62,
+      "mesin_cuci": 1.87,
+      "pompa_air": 1.81,
+      "__base_load__": 1.28
+    },
+    "daily_kwh": [
+      {
+        "date": "2026-11-10",
+        "kwh": 9.1585
+      },
+      {
+        "date": "2026-11-11",
+        "kwh": 9.3295
+      },
+      {
+        "date": "2026-11-12",
+        "kwh": 9.1348
+      },
+      {
+        "date": "2026-11-13",
+        "kwh": 9.6663
+      },
+      {
+        "date": "2026-11-14",
+        "kwh": 9.3427
+      },
+      {
+        "date": "2026-11-15",
+        "kwh": 9.3672
+      },
+      {
+        "date": "2026-11-16",
+        "kwh": 9.6898
+      }
+    ],
+    "peak": {
+      "peak_w": 1215.0,
+      "at": "2026-11-10T21:02:00"
+    },
+    "peak_hour": {
+      "start": "2026-11-14T21:01:00",
+      "kwh": 0.969
+    },
+    "load_factor": 0.3218,
+    "spike_threshold_w": 1040.0,
+    "n_spikes": 11,
+    "spikes": [
+      {
+        "start": "2026-11-10T21:33:00",
+        "end": "2026-11-10T21:38:00",
+        "peak_w": 1215.0,
+        "duration_min": 6
+      },
+      {
+        "start": "2026-11-11T21:29:00",
+        "end": "2026-11-11T21:34:00",
+        "peak_w": 1215.0,
+        "duration_min": 6
+      },
+      {
+        "start": "2026-11-11T21:36:00",
+        "end": "2026-11-11T21:43:00",
+        "peak_w": 1215.0,
+        "duration_min": 8
+      },
+      {
+        "start": "2026-11-12T21:03:00",
+        "end": "2026-11-12T21:09:00",
+        "peak_w": 1215.0,
+        "duration_min": 7
+      },
+      {
+        "start": "2026-11-13T21:31:00",
+        "end": "2026-11-13T21:35:00",
+        "peak_w": 1215.0,
+        "duration_min": 5
+      },
+      {
+        "start": "2026-11-14T21:11:00",
+        "end": "2026-11-14T21:22:00",
+        "peak_w": 1215.0,
+        "duration_min": 12
+      },
+      {
+        "start": "2026-11-14T21:38:00",
+        "end": "2026-11-14T21:46:00",
+        "peak_w": 1215.0,
+        "duration_min": 9
+      },
+      {
+        "start": "2026-11-15T21:26:00",
+        "end": "2026-11-15T21:30:00",
+        "peak_w": 1215.0,
+        "duration_min": 5
+      },
+      {
+        "start": "2026-11-16T21:01:00",
+        "end": "2026-11-16T21:06:00",
+        "peak_w": 1215.0,
+        "duration_min": 6
+      },
+      {
+        "start": "2026-11-16T21:30:00",
+        "end": "2026-11-16T21:34:00",
+        "peak_w": 1215.0,
+        "duration_min": 5
+      },
+      {
+        "start": "2026-11-16T21:52:00",
+        "end": "2026-11-16T21:58:00",
+        "peak_w": 1215.0,
+        "duration_min": 7
+      }
+    ],
+    "anomalies": [],
+    "base_load_kwh": 0.84
+  },
+  "bill_monthly_estimate": {
+    "kwh": 281.523,
+    "golongan": "R-1/TR 1300 VA",
+    "rate_per_kwh": 1444.7,
+    "energy_cost": 406716.28,
+    "ppj_pct": 3.0,
+    "ppj": 12201.49,
+    "admin_fee": 0.0,
+    "total": 418917.77
+  },
+  "recommendations": {
+    "items": [
+      {
+        "id": "ac_setpoint",
+        "title": "AC adalah beban terbesar — naikkan suhu 1°C atau kurangi 1 jam nyala",
+        "detail": "AC memakai 48.3% dari total energi (4.53 kWh/hari). Menaikkan suhu dari 22°C ke 23–24°C atau mematikan AC 1 jam lebih awal diperkirakan memangkas ~10% konsumsi AC (aturan umum hemat energi AC; lihat docs/RESEARCH.md).",
+        "estimated_saving": {
+          "kwh_per_month": 13.59,
+          "rp_per_month": 20220.0
+        }
+      },
+      {
+        "id": "rice_cooker_warm",
+        "title": "Cabut rice cooker setelah nasi matang — mode hangat boros diam-diam",
+        "detail": "Mode hangat memakai 0.28 kWh/hari (3.0% total) hanya untuk menjaga nasi tetap hangat. Mematikan/mencabut setelah masak dan menghangatkan ulang saat perlu menghemat ~80% dari angka ini.",
+        "estimated_saving": {
+          "kwh_per_month": 6.66,
+          "rp_per_month": 9904.0
+        }
+      },
+      {
+        "id": "standby",
+        "title": "Kurangi beban siaga (standby) — matikan dari stopkontak",
+        "detail": "Beban siaga 0.12 kWh/hari (1.3% total) mengalir 24 jam dari charger, TV standby, dan router. Memakai stopkontak bersaklar untuk perangkat yang tidak perlu menyala terus memangkas sekitar setengahnya.",
+        "estimated_saving": {
+          "kwh_per_month": 1.8,
+          "rp_per_month": 2678.0
+        }
+      },
+      {
+        "id": "peak_shaving",
+        "title": "Hindari menyalakan alat besar bersamaan (lonjakan daya)",
+        "detail": "Terdeteksi 11 lonjakan di atas 1040 W, puncak 1215 W dari batas 1300 VA. Jangan menyalakan AC + rice cooker + pompa air bersamaan; geser mesin cuci/pompa ke jam AC belum menyala.",
+        "estimated_saving": {
+          "kwh_per_month": 0.0,
+          "rp_per_month": 0
+        }
+      },
+      {
+        "id": "fridge",
+        "title": "Jaga kulkas tetap efisien — suhu 3–4°C dan karet pintu rapat",
+        "detail": "Kulkas memakai 15.3% total energi (1.44 kWh/hari) dan menyala 24 jam. Karet pintu yang longgar atau suhu terlalu dingin menaikkan duty cycle kompresor; perbaikan kecil diperkirakan menghemat ~5% konsumsi kulkas.",
+        "estimated_saving": {
+          "kwh_per_month": 2.16,
+          "rp_per_month": 3215.0
+        }
+      }
+    ],
+    "total_estimated_saving_kwh_per_month": 24.21,
+    "total_estimated_saving_rp_per_month": 36017.0,
+    "monthly_kwh_estimate": 281.52
+  }
+}
